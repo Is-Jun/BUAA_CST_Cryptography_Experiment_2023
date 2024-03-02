@@ -1,4 +1,4 @@
-# BUAA_CryptExp_2023
+# BUAA_CST_Cryptography_Experiment_2023
 This is the cryptography experiment for BUAA 2023(class of 2021).I hope it will be helpful for you~(qaq)  
 叠甲ing~    
 这是北航2021级密码学实验的代码部分，每部分只会在实验结束后更新。如果有幸被学弟学妹们发现，请自己多多动脑，内容仅供大家参考借鉴，切勿直接抄袭。 
@@ -12,4 +12,3 @@ This is the cryptography experiment for BUAA 2023(class of 2021).I hope it will 
 还有你也不只有密码学实验这一门课程，但请不要直接把我的代码复制粘贴，或者改个变量名等直接提交，这对你来说毫无意义。至于实验报告，如果有需要的话，我可以给出一份作为模板来参考。
 当然报告也不是最好的，大家也可以寻求学长的帮助[旺柴]。实验课每年也都在改革，大家有需求问题尽量向助教老师提，老师会参考的~   
 祝大家都有自己想要的大学生活，取得理想成绩~   
-差点忘了，Python 3.9(base) utf-8（）
