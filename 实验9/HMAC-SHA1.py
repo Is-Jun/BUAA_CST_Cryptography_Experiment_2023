@@ -106,7 +106,7 @@ def HMAC_SHA1(K, M):
     r = b - len(K) // 2
     # 若K长度大于b，则需要先进行一次Hash算法
     if r < 0:
-        K = SHA1(bytearray.fromhex(K)).hex().zfill(80)
+        K = SHA1(bytearray.fromhex(K)).hex()
         r = b - 20
     k = K + '00' * r
     K_i = (int(k, 16) ^ int(ipad, 16)).to_bytes(b, 'big')
