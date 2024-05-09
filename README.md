@@ -14,4 +14,4 @@ This is the cryptography experiment for BUAA 2023(class of 2021).I hope it will 
 祝大家都有自己想要的大学生活，取得理想成绩~   
 
 
-2024/5/9更新：实验9`HMAC-SHA1`有误，已修正（OJ上没有密钥长度超过b的测试点，一般密钥也不会512比特吧[汗流浃背]）
+2024/5/9更新：实验9`HMAC-SHA1.py`有误，已修正（OJ上没有密钥长度超过b的测试点，一般密钥也不会512比特吧[汗流浃背]）
