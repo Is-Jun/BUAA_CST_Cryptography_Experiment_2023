@@ -104,9 +104,9 @@ def HMAC_SHA1(K, M):
     ipad = '36' * b
     opad = '5c' * b
     r = b - len(K) // 2
-    # 由于答辩实验文档没有给出，若K长度大于b，则需要先进行一次Hash算法
+    # 若K长度大于b，则需要先进行一次Hash算法
     if r < 0:
-        k = SHA1(bytearray.fromhex(K))
+        K = SHA1(bytearray.fromhex(K)).hex().zfill(80)
         r = b - 20
     k = K + '00' * r
     K_i = (int(k, 16) ^ int(ipad, 16)).to_bytes(b, 'big')
